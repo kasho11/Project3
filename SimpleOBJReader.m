@@ -1,4 +1,4 @@
-function [V,F] = LoadOBJFile(filename)
+function [V,F] = SimpleOBJReader(filename)
   % Reads a .obj mesh file and outputs the vertex and face list
   % assumes a 3D triangle mesh and ignores everything but:
   % v x y z and f i j k lines
